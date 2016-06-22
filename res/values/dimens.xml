@@ -1,0 +1,46 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="title_center">18sp</dimen>
+    <dimen name="title_left">15sp</dimen>
+    
+    <dimen name="edit_login">15sp</dimen>
+    <dimen name="pic_time">12sp</dimen>
+<!--     向导时间轴字体 -->
+	<dimen name="guide_tx">12sp</dimen>
+	
+	<!-- 登录按钮 -->
+	<dimen name="btn_login_textsize">20sp</dimen>
+	<dimen name="btn_login_marginleft">10dp</dimen>
+	<dimen name="btn_login_marginright">10dp</dimen>
+	<dimen name="btn_login_margintop">20dp</dimen>
+	<dimen name="btn_login_paddingbottom">10dp</dimen>
+	<dimen name="btn_login_paddingtop">10dp</dimen>
+	<!-- 页面底部按钮 -->
+	<dimen name="btn_marginleft">10dp</dimen>
+	<dimen name="btn_marginright">10dp</dimen>
+	<!-- 注册页面 -->
+	<dimen name="reg_edittext_marginleft">15dp</dimen>
+	<dimen name="reg_edittext_margintop">10dp</dimen>
+	<dimen name="reg_edittext_marginright">5dp</dimen>
+	<dimen name="reg_edittext_height">40dp</dimen>
+
+	<!-- 房屋信息选择框 -->
+	<dimen name="house_edittext_marginleft">5dp</dimen>
+	<dimen name="house_edittext_marginright">5dp</dimen>
+	<dimen name="house_edittext_margintop">5dp</dimen>
+    <dimen name="house_edittext_marginbottom">5dp</dimen>
+	<dimen name="house_edittext_height">40dp</dimen>
+	<dimen name="house_edittext_width">100dp</dimen>
+	
+	<!-- 历史查询界面 -->
+	<dimen name="history_text_marginleft">15dp</dimen>
+	<dimen name="history_text_marginleft_red">5dp</dimen>
+	<dimen name="history_text_margintop">15dp</dimen>
+	<dimen name="history_text_marginright">10dp</dimen>
+	<dimen name="history_text_height">40dp</dimen>
+	<dimen name="history_text_size">16sp</dimen>
+
+</resources>

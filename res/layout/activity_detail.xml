@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_bg_gradient"
+    android:orientation="vertical" >
+
+    <include layout="@layout/titlebar_both" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            android:orientation="vertical" 
+            android:background="@drawable/detail_bg">
+
+           
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" 
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/detail_btn1"
+                        style="@style/smallButtonStyle"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="定位" />
+
+                    <Button
+                        android:id="@+id/detail_btn2"
+                        style="@style/smallButtonStyle"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="找景点" />
+                    
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" 
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/detail_btn3"
+                        style="@style/smallButtonStyle"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="找停车位" />
+
+                    <Button
+                        android:id="@+id/detail_btn4"
+                        style="@style/smallButtonStyle"
+                        android:layout_marginLeft="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="地铁出口人流量" />
+                    
+                </LinearLayout>
+                
+                  <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal" 
+                    android:layout_marginLeft="15dp"
+                    android:layout_marginRight="15dp"
+                    android:orientation="horizontal" >
+
+                    <Button
+                        android:id="@+id/detail_btn5"
+                        style="@style/smallButtonStyle"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingTop="10dp"
+                        android:text="紧急求救" />
+                    
+                </LinearLayout>
+                
+                 <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal" 
+                    android:layout_marginTop="20dp">
+                	 <TextView
+                        android:id="@+id/detail_tex1"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="50dp"
+                        android:layout_gravity="center"
+                        android:gravity="center"
+                        android:text="去吧，皮卡丘！" />
+                 </LinearLayout>
+
+        </LinearLayout>
+        <!--
+        <ProgressBar
+            android:id="@+id/serviceschedule_accomplish_progressBar"
+            style="@android:style/Widget.ProgressBar.Inverse"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:visibility="invisible" />
+        -->
+
+
+</LinearLayout>
